@@ -23,7 +23,7 @@ const Hero = async () => {
     return (
         <section className='w-full h-full  -px-7 sm:pb-6  lg:px-20 md:px-0  xxs:px-0 -sm:px-10 -bg-slate-400 -flex -justify-center flex-col  '>
             <div className='mb-8 sm:flex sm:flex-row -flex-wrap mdr:justify-between md:mb-16 -bg-neutral-500 w-full pt-5  mdr:flex xxs:justify-center -bg-slate-400  -justify-between xxs:px-5'>
- <div className='flex mb-6  w-full flex-col sm:mb-12 lg:mb-0  lg:w-[380px]  md:w-[350px] sm:pt-10 mdr:pt-10 lg:pb-24 -lg:pt-32 -bg-slate-500 pr-4 -bg-red-400  mdr:w-[400px] xxs:w-[300px] -mdr:w-full  sm:w-[400px] -xxs:px-5 mdr:px-5  -bg-red-200
+ <div className='flex mb-6  w-full flex-col sm:mb-12 lg:mb-0  lg:w-[380px]  md:w-[350px] sm:pt-10 mdr:pt-10 lg:pb-24 -lg:pt-32 -bg-slate-500 pr-4 -bg-red-400  mdr:w-[400px] xxs:w-[300px] -mdr:w-full  sm:w-[400px] -xxs:px-5 mdr:px-5  bg-red-200
   '>   
                     <h1 className='mb-4 mdr:text-4xl  xxs:text-5xl font-bold  text-black sm:text-5xl md:mb-8 md:text-6xl  -bg-black'>
                         <span className='text-[#3b82f6]'>Top</span>Fashion for a top <span className='text-[#3b82f6]'>price!</span>
