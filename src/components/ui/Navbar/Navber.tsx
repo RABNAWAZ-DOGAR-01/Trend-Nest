@@ -108,7 +108,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false); // For mobile menu
 
   return (
-    <div className="flex justify-between items-center mx-auto max-w-7xl px-4 sm:px-6 border-b-2 py-4">
+    <div className="flex justify-between items-center w-full px-4 sm:px-6 border-b-2 py-4">
       {/* Logo */}
       <Link href={"/"}>
         <h1 className="md:text-4xl text-2xl font-bold">
