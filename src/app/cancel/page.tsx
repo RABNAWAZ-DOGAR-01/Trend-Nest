@@ -11,9 +11,7 @@ export default function CancelPage() {
             Go Back to Shop
           </Link>
         </div>
-        <div>
-            <Newest/>
-        </div>
+       
       </div>
     );
   }
