@@ -1,4 +1,4 @@
-import Newest from "@/components/Newest";
+
 import Link from "next/link";
 
 export default function CancelPage() {
