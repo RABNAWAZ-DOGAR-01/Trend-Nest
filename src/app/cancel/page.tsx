@@ -7,7 +7,7 @@ export default function CancelPage() {
         <div className=" text-center">
           <h1 className="text-3xl font-bold text-red-600">Payment Canceled</h1>
           <p className="mt-4 text-lg">It seems you canceled the payment.</p>
-          <Link href="/" className="mt-4 -text-blue-500 font-md py-2 px-6 rounded-md text-red-600">
+          <Link href="/" className="mt-4 text-blue-500 font-md py-2 px-6 rounded-md -text-red-600">
             Go Back to Shope
           </Link>
         </div>
