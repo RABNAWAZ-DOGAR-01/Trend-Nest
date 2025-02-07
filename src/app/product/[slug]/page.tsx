@@ -9,6 +9,7 @@ import { Star, Truck } from 'lucide-react';
 import imageUrlBuilder from '@sanity/image-url';
 import { SanityImageSource } from '@sanity/image-url/lib/types/types';
 import Link from 'next/link';
+import Newest from '@/components/Newest';
 
 
 
@@ -53,7 +54,7 @@ function urlFor(source: SanityImageSource) {
     <div className='bg-white  w-full'>
     <div className='mx-auto max-w-screen-xl px-4 md:px-8 -bg-black py-5'>
     <Link href={'/'} className='lg:hidden pb-3'>Home/</Link>
-    <div className='grid gap-2 md:grid-cols-2 -bg-slate-900 content-between px-5 '>
+    <div className='grid gap-2 md:grid-cols-2 -bg-slate-900 content-between px-5  -bg-black'>
     <ImageGallery images={data.images || []} />
     {/* New div */}
 
@@ -117,6 +118,9 @@ function urlFor(source: SanityImageSource) {
 
     </div>
     </div>
+    </div>
+    <div>
+     <Newest/>
     </div>
     </div>
   )
