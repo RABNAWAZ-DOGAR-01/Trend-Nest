@@ -1,4 +1,5 @@
 
+import Newest from "@/components/Newest";
 import Link from "next/link";
 export default function CancelPage() {
     return (
@@ -10,7 +11,9 @@ export default function CancelPage() {
             Go Back to Shope
           </Link>
         </div>
-       
+       <div>
+        <Newest/>
+       </div>
       </div>
     );
   }
