@@ -1,0 +1,25 @@
+Marketplace Technical Foundation – [Brands Bazar]
+System Architecture:
+1. The user will first signup/login and his data of the user will be stored in
+sanity.io CMS.
+2. Then the user will be shown the Home page and can navigate between the
+site and can select the product.
+3. User will add the product to cart.
+4. From the cart page user can check out the order after and can perform the
+payment.
+5. After payment the user will be given a confirmation notification.
+6. The user will be given a link from which he can track his product.
+Frontend Requirements:
+User-friendly Interface:
+Make an interface which a non-technical person can easily use and navigate
+around it.
+Responsive design:
+Make sure that the UI is responsive so the website is accessible from every device.
+Essential Pages:
+Make sure that you have the essential pages of an E-commerce website.
+• Home
+• Products Listing
+• Product Details
+• Login/Signup
+• Cart
+• Checkou
