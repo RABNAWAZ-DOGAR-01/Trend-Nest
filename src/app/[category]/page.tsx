@@ -44,9 +44,13 @@ const Category = async ({ params }: { params:Promise<{ category:string }> }) => 
     
     {/* Create a new Div */}
     {/* First Section */}
+  
     <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid sm:grid-cols-3 lg:grid-cols-4 xl:gap-x-8 -bg-slate-300 w-full content-between mdr:grid-cols-2 xxs:w-[300px] mdr:w-full   sm:content-evenly  " >
+      
     {data.map((product)=>(
+      
     <div key={product._id} className="group relative ">
+        <Link href={`/product/${product.slug}`} >
     <div className="aspect-square w-full overflow-hidden rounded-md  bg-gray-200 group-hover:opacity-75 lg:h-80">
     <Image src={urlFor(product.imageUrl).url()} alt="images" className="w-full h-full object-cover object-center lg:h-full lg:w-full"
     width={500}
@@ -56,20 +60,24 @@ const Category = async ({ params }: { params:Promise<{ category:string }> }) => 
     <div className="mt-4 flex justify-between -bg-zinc-400 text-gray-700">
     <div>
     <h3 className="text-sm   -font-[600]">
-       <Link href={`/product/${product.slug}`} >
+    
        {product.name}
-       </Link>
+      
     </h3>
     <p className="mt-1 text-sm text-gray-500">{product.categoryName}</p>
     </div>
     <p className="font-[600] text-sm text-gray-700">${product.price}</p>
     </div>
+    </Link>
     </div>
+    
     ))}
+    
     </div>
     
     
     </div>
+    
      </div>
   )
 }
